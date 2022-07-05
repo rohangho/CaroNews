@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693674809425",
+    "project_id": "democheck-d7b3b",
+    "storage_bucket": "democheck-d7b3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693674809425:android:5d57f8f87cbea4059b4070",
+        "android_client_info": {
+          "package_name": "com.example.caronews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693674809425-0b3d0rimi31ojci6hqpbg4kl92hi7s09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7GOB9Ti5tZzm4myg9eoswwVDi2fYxEfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693674809425-0b3d0rimi31ojci6hqpbg4kl92hi7s09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
