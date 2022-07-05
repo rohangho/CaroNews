@@ -96,17 +96,25 @@ class MainActivity : AppCompatActivity() {
     private fun sortRecentList()
     {
         Collections.sort(returnedNewsList
-        ) { o1:NewsListResponse, o2:NewsListResponse -> o2.timeCreated!!.compareTo(o1.timeCreated!!) }
+        ) {
+                o1:NewsListResponse, o2:NewsListResponse ->
+            o2.timeCreated!!.compareTo(o1.timeCreated!!)
+
+        }
 
     }
 
 
     private fun sortPopularList()
     {
-
             Collections.sort(
                 returnedNewsList
-            ) { o1: NewsListResponse, o2: NewsListResponse -> o1.rank!!.compareTo(o2.rank!!) }
+            ) { o1: NewsListResponse, o2: NewsListResponse ->
+               if( o1.rank!!.compareTo(o2.rank!!) == 0)
+                   o2.timeCreated!!.compareTo(o1.timeCreated!!)
+               else
+                o1.rank!!.compareTo(o2.rank!!)
+            }
     }
 
     private fun showFailUi() {
